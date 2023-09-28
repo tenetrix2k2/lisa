@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #020209;
+}
+.Anurati {
+  font-family: Anurati;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Anurati";
+  src: url("/font/Anurati-Regular.otf");
+}
+.hero_para_color {
+  background: linear-gradient(
+    91deg,
+    #e96b95 8.67%,
+    #9c7ceb 42.69%,
+    #d590ff 62.57%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
